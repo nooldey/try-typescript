@@ -47,7 +47,7 @@ kid(girl)
 */
 
 // 声明函数类型: 创建一个函数接口，实现判断字符串中特定字符的存在
-interface searchFunc {
+/*interface searchFunc {
     (source:string,subString: string): boolean;
 }
 let mySearch: searchFunc;
@@ -55,7 +55,7 @@ mySearch = (s:string,sub:string) => {
     return s.search(sub) != -1;
 }
 console.log(mySearch("My name is Nooldey","nooldey"))
-console.log(mySearch("My name is Nooldey","Nooldey"))
+console.log(mySearch("My name is Nooldey","Nooldey"))*/
 
 /*---------------------------------------------------*/
 /*----------------------#类与继承-----------------------------*/
@@ -142,7 +142,8 @@ elog(undefined,"nooldey")  // 传入y
 
 /*---------------------------------------------------*/
 /*----------------------# 存储器-----------------------------*/
-/*class People {
+/*
+class People {
     private _name: string;
     private _age: number;
     get name():string {
@@ -166,4 +167,15 @@ elog(undefined,"nooldey")  // 传入y
 let people = new People();
 people.name = "nooldey";
 people.age = 26
-console.log(people)*/
+console.log(people)
+*/
+
+/*---------------------------------------------------*/
+/*------------------#试用---------------------------------*/
+/*
+let add = function (num1: number,num2: number):number {
+    return num1 + num2;
+}
+let sum = add (25,45)
+console.log(sum)
+*/

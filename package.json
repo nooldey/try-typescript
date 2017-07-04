@@ -2,12 +2,12 @@
   "name": "typescript",
   "version": "1.0.0",
   "description": "a project build on typescript",
-  "main": "./dist/main.js",
+  "main": "./dist/app.js",
   "author": "Nooldey",
   "license": "MIT",
   "scripts": {
     "build": "gulp",
-    "start": "node dist/main.js"
+    "start": "node dist/app.js"
   },
   "dependencies": {
     "gulp": "^3.9.1",

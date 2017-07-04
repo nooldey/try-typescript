@@ -1,5 +1,21 @@
-let add = function (num1: number,num2: number):number {
-    return num1 + num2;
+/*
+interface StringArray {
+    [index: number]: string;
 }
-let sum = add (25,45)
-console.log(sum)
+let MyArr:StringArray;
+MyArr = ["风","云","突","变"];
+console.log(MyArr[3])
+*/
+
+interface ClockInter {
+    currentTime: Date;
+    setTime(d: Date): void;
+}
+
+class Clock implements ClockInter {
+    currentTime: Date;
+    setTime(d: Date) {
+        this.currentTime = d;
+    }
+    constructor(h: number,m: number) {}
+}
